@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+/* font-family: 'Happy Monkey', cursive; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #9000FF;
+    color: white;
+}
+
+.home-body{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-p{
+    font-size: 100px;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+}
+
+.second-p{
+    width: 150px;
+    font-size: 170%;
+    color: white;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.right-img{
+    height: 500px;
+}
+
+.Electricity-img{
+    height: 300px;
+    width: 400px;
+    margin-top: 65px;
+}
+
+.link_to_next{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 45px;
+    height: 55px;
+    width: 400px;
+    margin-left: 32vw;
+    margin-bottom: 10vw;
+}
+
+.link_to_next_text{
+    font-size: 30px;
+    font-family: 'Happy Monkey', cursive;
+    padding-top: 5px;
+}
+
+.link_to_next_text:hover{
+    font-size: 32px;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.nav-color{
+    background-color: rgb(18,18,62);
+}
+
+.heading-text{
+    color: black;
+}
+
+
+
+

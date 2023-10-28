@@ -1,0 +1,13 @@
+Ways to reduce energy usage by Fans :-
+
+1. Use fans with BLDC (Brushless Direct Current) motors that are more efficient, durable, and silent than conventional motors.
+
+2. Use variable speed drives (VSD) to adjust the fan speed according to the cooling demand and save energy.
+
+3. Use pedestal or table fans instead of ceiling fans whenever possible, as they consume less power and can be moved easily.
+
+4. Use a wall fan instead of a ceiling fan when using AC in a large room, as it can circulate the cool air better and reduce the AC load.
+
+5. Keep your fans clean and well lubricated to avoid dust accumulation and friction that can reduce the performance and increase the power consumption.
+
+6. Turn off your fans when not in use or when you have other sources of cooling such as natural ventilation or AC.

@@ -1,0 +1,43 @@
+{% extends 'home.html'%}
+
+{%block title%} Analyzer {%endblock%}
+
+{%block styles%}
+<link href='{{url_for(".static", filename="css_files/analyze.css")}}' rel="stylesheet">
+{%endblock%}
+
+{%block body%}
+<form method='post'>
+<div class='Mainbox'>
+  <div class='mytable'>
+        <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Sr no.</th>
+                  <th scope="col">Name of Appliances</th>
+                  <th scope="col">Watts (w)</th>
+                  <th scope="col">Number</th>
+                  <th scope="col">No. of Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td scope="row" class = 'srno'>1</td>
+                  <td><input class='textbox' type='text' name='nameofapp'></td>
+                  <td><input class='textbox' type='number' name='watts'></td>
+                  <td><input class='textbox' type='number' name='no'></td>
+                  <td><input class='textbox' type='number' name='hours'></td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+    </div>
+    <div class='submit'>
+      <!-- <a class='Submitbutton' type='submit' name='ranges' href='{{url_for("AnalyzedReportViewer")}}'>Submit</a> -->
+      <button class='Submitbutton' type='submit' name='ranges'>Submit</button>
+    </div>
+  </form>
+  <div class='add'>
+    <button type='submit' class='Addbutton'>Add</button>
+  </div>
+{% endblock%}

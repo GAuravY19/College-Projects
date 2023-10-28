@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+/* font-family: 'Inter', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+}
+
+body{
+    background-color: white;
+}
+
+.home-body{
+    display: none;
+}
+
+.link_to_next{
+    display: none;
+}
+
+footer{
+    margin-top: 80%;
+}
+
+.message{
+    background-color: rgb(159, 243, 208);
+    height: 300px;
+    width: 600px;
+    margin-left: 27%;
+    margin-top: 5%;
+    border-radius: 50px;
+}
+
+.textmsg{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.downloadlink{
+    background-color: red;
+    height: 35px;
+    width: 140px;
+    margin-top: 10%;
+    margin-left: 38%;
+    border-radius: 25px;
+}
+
+.downtext{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-left: 24px;
+}
+
+.message1{
+    background-color: red;
+    height: 162px;
+    width: 44vw;
+    margin-left: 27%;
+    margin-top: 4%;
+    border-radius: 30px
+}
+
+.measuresText{
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+    padding-top: 15px;
+}

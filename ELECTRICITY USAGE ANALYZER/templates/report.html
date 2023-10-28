@@ -1,0 +1,28 @@
+{% extends 'home.html'%}
+
+{%block title%} Analysis Report {%endblock%}
+
+{%block styles%}
+<link href='{{url_for(".static", filename="css_files/report.css")}}' rel="stylesheet">
+{%endblock%}
+
+{%block body%}
+
+<div class='message'>
+    <p class = 'textmsg'> Your Result's are ready </p>
+    <p class = 'textmsg'> You can Download your Total Energy usage report From below given Download link </p>
+    <div class='downloadlink'>
+        <a class='downlink' href='{{url_for("download_file_csv")}}'><p class='downtext'> Download </p></a>
+    </div>
+</div>
+
+<div class='message1'>
+    <div class='measures'>
+        <p class='measuresText'> You can Download Your measures Files from below given Download Link.</p>
+        <div class='downloadlink'>
+            <a class='downlink' href='{{url_for("download_txt_file")}}'><p class='downtext'> Download </p></a>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

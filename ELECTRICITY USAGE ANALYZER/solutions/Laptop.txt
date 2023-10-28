@@ -1,0 +1,13 @@
+Ways to reduce the energy usage by Laptops :-
+
+1. Lower the screen brightness, as it is the biggest battery drain.
+
+2. Turn off or disconnect any external devices that you don’t need, such as CD/DVD drive, printer, speakers, Bluetooth and Wi-Fi.
+
+3. Adjust Windows Power Options to choose a lower power mode or customize your power plan.
+
+4. Use sleep or hibernate options when you are not using your laptop, instead of leaving it on standby.
+
+5. Use a power-efficient browser and close any unrequired tabs or applications.
+
+6.Upgrade your hardware to more energy-efficient components, such as SSD, RAM or battery.

@@ -1,0 +1,65 @@
+{% extends 'home.html'%}
+
+{%block title%} Why is saving Power Important {%endblock%}
+
+{%block styles%}
+<link href='{{url_for(".static", filename="css_files/why_is_saving_energy_important.css")}}' rel="stylesheet">
+{%endblock%}
+
+{%block body%}
+
+<div class="heading">
+    <h1 class="heading-text"> Why Is Saving Power Important ? </h1>
+</div>
+<div>
+    <img class="heading-img" src='{{url_for("static", filename="images/save.png")}}'>
+</div>
+
+<div class="reasons">
+    <div class="reason1">
+        <div class="reasontextleft">
+            <p class="reasontext"> Protecting the environment by reducing greenhouse gas emissions and pollution. </p>
+        </div>
+        <div class='rightimgbox'>
+            <img class="rightimg" src='{{url_for("static", filename="images/conserve-energy.jpg")}}'>
+        </div>
+    </div>
+
+    <hr class="ruling">
+
+    <div class="reason2">
+        <div class='imgleftbox'>
+            <img class="imgleft" src='{{url_for("static", filename="images/energy-saving.jpg")}}'>
+        </div>
+        <div class="reasontextright">
+            <p class="reasontext"> Saving money on utility bills by using less electricity and gas. </p>
+        </div>
+    </div>
+
+    <hr class="ruling">
+
+    <div class="reason3">
+        <div class="reasontextleft">
+            <p class="reasontext"> Conserving natural resources and reducing dependence on fossil fuels. </p>
+        </div>
+        <div class='rightimgbox'>
+            <img class='rightimg' src='{{url_for("static", filename="images/natural.jpeg")}}'>
+        </div>
+    </div>
+
+    <hr class="ruling">
+
+    <div class='reason4'>
+        <div class='imgleftbox'>
+            <img class="imgleft" src='{{url_for("static", filename="images/qualilty_of_life.jpeg")}}'>
+        </div>
+        <div class="reasontextright">
+            <p class="reasontext"> Improving quality of life and health by creating a cleaner and more comfortable living space. </p>
+        </div>
+    </div>
+</div>
+
+
+
+
+{%endblock%}

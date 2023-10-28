@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* font-family: 'Crimson Pro', serif; */
+/* font-family: 'Karla', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.home-body{
+    display: none;
+}
+
+.link_to_next{
+    display: none;
+}
+
+.saving{
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+.heading-img{
+    height: 300px;
+    width: 400px;
+    margin-left: 35%;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 50vw;
+    margin-left: 25%;
+    margin-bottom: -45px;
+}
+
+.heading-text{
+    font-family: 'Crimson Pro', serif;
+    font-size: 315%;
+    color: black;
+}
+
+.reason1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reason2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reason3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.reason4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rightimg{
+    margin-top: 25%;
+    height: 200px;
+    width: 200px;
+}
+
+.reasontextleft{
+    height: 200px;
+    width: 400px;
+    margin-top: 5%;
+}
+
+.reasontext{
+    font-size: 180%;
+    font-family: 'Karla', sans-serif;
+    color: black;
+}
+
+.ruling{
+    width: 75%;
+    height: 3%;
+    margin-left: 13%;
+}
+
+.imgleft{
+    margin-top: 25%;
+    height: 200px;
+    width: 200px;
+
+}
+
+.reasontextright{
+    height: 200px;
+    width: 400px;
+    margin-top: 5%;
+}
+
